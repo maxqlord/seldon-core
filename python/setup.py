@@ -36,6 +36,7 @@ setup(
         "gunicorn >= 19.9.0, < 20.2.0",
         "setuptools >= 65.5.1",
         "prometheus_client >= 0.7.1, < 0.9.0",
+        # Addresses SNYK-PYTHON-WERKZEUG-3319936 and SNYK-PYTHON-WERKZEUG-6035177
         "werkzeug >= 2.1.1, <= 2.3.8",
         # Addresses CVE SNYK-PYTHON-CRYPTOGRAPHY-3315328
         "cryptography >= 39.0.1, < 41.1",
